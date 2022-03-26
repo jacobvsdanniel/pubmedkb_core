@@ -1,0 +1,16 @@
+patient
+human
+child
+women
+boy
+men
+girl
+woman
+participant
+infant
+person
+people
+man
+jew
+family
+families

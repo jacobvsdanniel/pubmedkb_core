@@ -1,0 +1,5 @@
+numpy
+pandas
+requests
+tensorflow==1.13.1
+xmltodict==0.12.0
