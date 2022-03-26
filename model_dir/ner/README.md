@@ -30,6 +30,7 @@ An example input file is available at ./source.json
         "sentence": "The 2 patients with a severe form of AVED were homozygous with 485delT and 513insTT, respectively, while the patient with a mild form of the disease was compound heterozygous with 513insTT and 574G-->A.",
         "span_list": [[0, 3], [4, 5], [6, 14], [15, 19], [20, 21], [22, 28], [29, 33], [34, 36], [37, 41], [42, 46], [47, 57], [58, 62], [63, 70], [71, 74], [75, 83], [83, 84], [85, 97], [97, 98], [99, 104], [105, 108], [109, 116], [117, 121], [122, 123], [124, 128], [129, 133], [134, 136], [137, 140], [141, 148], [149, 152], [153, 161], [162, 174], [175, 179], [180, 188], [189, 192], [193, 197], [197, 199], [199, 200], [200, 201], [201, 202]],
         "token_list": ["The", "2", "patients", "with", "a", "severe", "form", "of", "AVED", "were", "homozygous", "with", "485delT", "and", "513insTT", ",", "respectively", ",", "while", "the", "patient", "with", "a", "mild", "form", "of", "the", "disease", "was", "compound", "heterozygous", "with", "513insTT", "and", "574G", "--", ">", "A", "."]
+    }
     ...
 ]
 ```
