@@ -10,9 +10,7 @@
 
 ### 1. Prepare Stanford CoreNLP
 
-From [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/), download the zipped release; unzip it to a path, say, *./jar_dir*
-
-A copy of the unzipped jar directory is available at */volume/pubmedkb-covid/openie/stanford-corenlp-4.2.0*
+From [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP) or [here](https://drive.google.com/file/d/1AQxNN2lR0NodfN3eagM1bKeIG-oPFF-j/view?usp=sharing), download the zipped release; unzip it to *./jar_dir*
 
 ### 2. Prepare sentences and NER annotations
 
