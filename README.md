@@ -102,7 +102,7 @@ venv_dir/
 
 Before running the core pipeline, the nen server must be started.
 
-See the instructions in *model_dir/nen/nen_server*
+See the instructions in *model_dir/nen/server*
 
 ### 4. Demo
 
