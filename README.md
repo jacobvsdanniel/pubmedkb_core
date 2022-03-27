@@ -118,9 +118,30 @@ python main.py \
 
 ### 5. Data format
 
-The last six fields (mention_list, population, odds_ratio, spacy_ore, openie_ore, rbert_cre) can be absent in source files, and they will be filled in target files.
+- *pmid*, *sent_id*, *sentence*, *span_list*, *token_list* are required for source files.
 
-See each *model_dir/[module]/README.md* for sample outputs.
+```python
+# Recommended preprocessing to get sentences, span_lists, token_lists from text
+from nltk.tokenize import sent_tokenize
+from nltk.tokenize.destructive import NLTKWordTokenizer
+tokenizer = NLTKWordTokenizer()
+for sentence in sent_tokenize(text):
+    try:
+        span_sequence = list(tokenizer.span_tokenize(sentence))
+        token_sequence = [sentence[i:j] for i, j in span_sequence]
+    except ValueError:
+        span_sequence = None
+        token_sequence = tokenizer.tokenize(sentence)
+    data.append({
+        "sentence": sentence,
+        "span_list": span_sequence,
+        "token_list": token_sequence,
+    })
+```
+
+- *mention_list*, *population*, *odds_ratio*, *spacy_ore*, *openie_ore*, *rbert_cre* will be filled for target files.
+
+See each *model_dir/[module]/README.md* for sample outputs of each field.
 
 ```json
 [
