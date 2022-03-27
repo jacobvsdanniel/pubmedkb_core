@@ -18,8 +18,6 @@
 
 ### 1. Download pre-trained models
 
-- Git lfs is needed to clone large *pytorch_model.bin* model files and *.csv* dataset files.
-
 ### 2. Prepare sentences and NER annotations
 
 An example input file is available at ./source.json
