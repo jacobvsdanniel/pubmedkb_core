@@ -120,8 +120,9 @@ python main.py \
 
 - *pmid*, *sent_id*, *sentence*, *span_list*, *token_list* are required for source files.
 
+Recommended preprocessing to get sentences, span_lists, token_lists from text:
+
 ```python
-# Recommended preprocessing to get sentences, span_lists, token_lists from text
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize.destructive import NLTKWordTokenizer
 tokenizer = NLTKWordTokenizer()
@@ -141,7 +142,7 @@ for sentence in sent_tokenize(text):
 
 - *mention_list*, *population*, *odds_ratio*, *spacy_ore*, *openie_ore*, *rbert_cre* will be filled for target files.
 
-See each *model_dir/[module]/README.md* for sample outputs of each field.
+See each *model_dir/[module]/README.md* for sample results of each field.
 
 ```json
 [
