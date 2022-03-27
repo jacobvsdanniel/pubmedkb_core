@@ -11,8 +11,6 @@
 
 ### 1. Download pre-trained models
 
-Git lfs is needed to clone large **.bin* files in *model/biobert-snpphena-disgevar1-disgevar2* and *model/biobert-nonanndisge3*
-
 ### 2. Preprocess your own input sentences
 
 #### 2.1 Mask entity mentions by VARIANT and DISEASE
