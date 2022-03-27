@@ -63,7 +63,7 @@ model_bin_dir
 
 ### 2. Prepare core models
 
-- Follow the instructions for each model in *model_dir*
+- Follow the instructions for each module in *model_dir*
 
 ```
 model_dir/
@@ -106,7 +106,7 @@ See the instructions in *model_dir/nen/server*
 
 ### 4. Demo
 
-See *demo.sh*.
+See *demo.sh*
 
 ```bash
 python main.py \
@@ -120,7 +120,7 @@ python main.py \
 
 The last six fields (mention_list, population, odds_ratio, spacy_ore, openie_ore, rbert_cre) can be absent in source files, and they will be filled in target files.
 
-See the README in each *model_dir/module* for sample outputs.
+See each *model_dir/[module]/README.md* for sample outputs.
 
 ```json
 [
