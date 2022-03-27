@@ -20,7 +20,7 @@ References:
 
 | Module | Annotation | |
 |-|-|-|
-| NER | named entity recognition | including gene, variant, disease, chemical |
+| NER | named entity recognition | including gene, mutation (variant), disease, drug (chemical) |
 | NEN | named entity normalization | mapping aliases to unique IDs |
 | POP | population extraction | *"1337 patients"* |
 | OR | odds ratio extraction | *"variant: C.3630A>G, disease: PD, OR: 1.37, CI: 1.08-1.73, p-value: 0.008"* |
