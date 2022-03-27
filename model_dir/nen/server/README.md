@@ -21,12 +21,12 @@ apt-get install default-jre
 pip3 install -r requirements.txt
 ```
 
-3. Copy file from `/volume/pubmedkb-covid/NEN` and untar them.
+3. Download [BERN files](https://drive.google.com/drive/folders/1ximevPy_HHZtYKy8l7OEPv1lbGuaJfPr?usp=sharing)
 ```bash
-cp /volume/pubmedkb-covid/NEN/GNormPlusJava.tar.gz ./bern/
-cp /volume/pubmedkb-covid/NEN/normalization.tar.gz ./bern/
-cp /volume/pubmedkb-covid/NEN/tmVarJava.tar.gz ./bern/
-cp /volume/pubmedkb-covid/NEN/pretrainedBERT.tar.gz ./bern/biobert_ner/
+# bern/GNormPlusJava.tar.gz
+# bern/normalization.tar.gz
+# bern/tmVarJava.tar.gz
+# bern/biobert_ner/pretrainedBERT.tar.gz
 
 cd bern
 tar zxvf GNormPlusJava.tar.gz
