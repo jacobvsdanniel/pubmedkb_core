@@ -28,9 +28,13 @@ References:
 | OPENIE | relational phrase extraction | *"pulmonary embolism, cause, pulmonary hypertention* |
 | CRE | relational fact extraction | *"513insTT, in-patient, AVED"* |
 
-- Visit our [website](https://www.pubmedkb.cc) for a knowledge base mined from more than 33M PubMed citations
+- We release the [API and web server](https://github.com/jacobvsdanniel/pubmedkb_web) to facilitate a methodical access of our PubMed knowledge base
 
-![plot](https://github.com/jacobvsdanniel/pubmedkb_core/blob/master/image_dir/website.png)
+<img src="https://github.com/jacobvsdanniel/pubmedkb_web/blob/main/image_dir/web_nen.png" width="400"><img src="https://github.com/jacobvsdanniel/pubmedkb_web/blob/main/image_dir/web_rel.png" width="400">
+
+- Or visit our [website](https://www.pubmedkb.cc) for our envisioned usage scenario of exploring the knowledge base
+
+![website](https://github.com/jacobvsdanniel/pubmedkb_core/blob/master/image_dir/website.png)
 
 ## How to Run
 
