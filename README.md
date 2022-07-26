@@ -1,8 +1,8 @@
-# pubmedKB Core
+# pubmedKB core
 
-**End-to-end relation extraction for biomedical literature**
+**End-to-end relation extraction for biomedical literature: core annotators**
 
-**The full pubmedKB-BERN dataset, python API, and web GUI can be downloaded at [pubmedkb_web](https://github.com/jacobvsdanniel/pubmedkb_web)**
+**The full pubmedKB-BERN dataset, python API, and web GUI can be downloaded at [pubmedKB web](https://github.com/jacobvsdanniel/pubmedkb_web)**
 
 Authors:
 - Peng-Hsuan Li (jacobvsdanniel [at] gmail.com)
