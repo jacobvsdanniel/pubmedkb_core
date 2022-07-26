@@ -2,6 +2,8 @@
 
 **End-to-end relation extraction for biomedical literature**
 
+**The full pubmedKB-BERN dataset, python API, and web GUI can be downloaded at [pubmedkb_web](https://github.com/jacobvsdanniel/pubmedkb_web)**
+
 Authors:
 - Peng-Hsuan Li (jacobvsdanniel [at] gmail.com)
 - Ting-Fu Chen (ting830812 [at] gmail.com)
@@ -28,7 +30,7 @@ References:
 | OPENIE | relational phrase extraction | *"pulmonary embolism, cause, pulmonary hypertention* |
 | CRE | relational fact extraction | *"513insTT, in-patient, AVED"* |
 
-- We release the [API and web server](https://github.com/jacobvsdanniel/pubmedkb_web) to facilitate a methodical access of our PubMed knowledge base
+- We release the [full pubmedKB-BERN dataset, python API, and web GUI](https://github.com/jacobvsdanniel/pubmedkb_web) to facilitate a methodical access of our PubMed knowledge base
 
 <img src="https://github.com/jacobvsdanniel/pubmedkb_web/blob/main/image_dir/web_nen.png" width="400"><img src="https://github.com/jacobvsdanniel/pubmedkb_web/blob/main/image_dir/web_rel.png" width="400">
 
