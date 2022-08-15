@@ -13,7 +13,7 @@
 
 ## How to Run
 
-### Note: Because the version of the most up-to-date scispaCy and spaCy would likely conflict with each other as scispaCy is developed by using certain older version of spaCy, please install either spaCy or scispaCy, depending on which open relation relation you are running
+#### Note: Because the version of the most up-to-date scispaCy and spaCy would likely conflict with each other as scispaCy is developed by using certain older version of spaCy, please install either spaCy or scispaCy, depending on which open relation relation you are running
 
 ### 1. Prepare spaCy (if not running scispaCy)
 
