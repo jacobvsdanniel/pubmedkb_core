@@ -22,6 +22,14 @@ python -m spacy download en_core_web_sm
 ```
 *[cuda101]* should be modified to the CUDA version in the environment, or ignored if CUDA is not available.
 
+### 1. Prepare scispaCy (if not running spaCy)
+
+To install the scispaCy and en-core-sci-sm:
+```bash
+pip install -U scispacy[cuda101]
+pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.0/en_core_sci_sm-0.5.0.tar.gz
+```
+*[cuda101]* should be modified to the CUDA version in the environment, or ignored if CUDA is not available.
 
 ### 2. Prepare sentences and NER annotations
 
