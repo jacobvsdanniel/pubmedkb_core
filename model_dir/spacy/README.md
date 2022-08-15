@@ -8,10 +8,12 @@
 - spacy 3.2.1
 - cupy-cuda101 9.6.0
 - en-core-web-sm 3.2.0
+- scispacy 0.5.0
+- en-core-sci-sm 0.5.0
 
 ## How to Run
 
-### 1. Prepare spaCy
+### 1. Prepare spaCy (if not running scispaCy)
 
 To install the lastest spacy and en-core-web-sm:
 ```bash
@@ -19,6 +21,7 @@ pip install -U spacy[cuda101]
 python -m spacy download en_core_web_sm
 ```
 *[cuda101]* should be modified to the CUDA version in the environment, or ignored if CUDA is not available.
+
 
 ### 2. Prepare sentences and NER annotations
 
