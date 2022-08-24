@@ -5,8 +5,8 @@
 **The full pubmedKB-BERN dataset, python API, and web GUI can be downloaded at [pubmedKB web](https://github.com/jacobvsdanniel/pubmedkb_web)**
 
 Authors:
-- Peng-Hsuan Li (jacobvsdanniel [at] gmail.com)
-- Ting-Fu Chen (ting830812 [at] gmail.com)
+- Peng-Hsuan Li @ ailabs.tw (jacobvsdanniel [at] gmail.com)
+- Ting-Fu Chen @ ailabs.tw (ting830812 [at] gmail.com)
 
 References:
 - Original [BERN](https://github.com/dmis-lab/bern)
